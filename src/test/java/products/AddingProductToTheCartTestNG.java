@@ -36,6 +36,7 @@ public void  tc_001_AddSingleProductToCartTest() throws IOException, Interrupted
 //Step 4: click on the Product
 InventoryPage ap=new InventoryPage(driver);
 String productTitle=ap.clickOnProductName(driver,PRODUCTNAME);
+System.out.println("Hi");
 //Step 5: Add Product to cart 
 ProductPage pp=new ProductPage(driver);
 pp.clickOnAddToCartButton();
